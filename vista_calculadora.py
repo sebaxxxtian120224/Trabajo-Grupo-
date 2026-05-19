@@ -1,3 +1,4 @@
+from calculadora import * 
 def mostrar_menu():
     print("1. Area de Triangulo")
     print("2.IMC")
@@ -8,14 +9,17 @@ def mostrar_menu():
 
 def opcion_1():#Sara
 
-def opcion_2():#Pinzón
+def opcion_2(): #Pinzón
+    peso = float(input("Peso En Lb"))
+    altura = float(input("Altura"))
+    print("Resultado:", calcular_BMI(peso,altura))
 
 def opcion_3():#Gadiel
 
 def opcion_4():#Samacá
 
 def iniciar_programa():
-    while true:
+    while True:
         opcion=mostrar_menu()
         if opcion==1:
             opcion_1
