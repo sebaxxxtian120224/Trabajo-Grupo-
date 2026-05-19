@@ -10,8 +10,11 @@ def opcion_1():#Sara
 
 def opcion_2():#Pinzón
 
-def opcion_3():#Gadiel
-
+def ejecutar_opcion_3():
+    cambio = float(input("Valor a cambiar: "))
+    monedas = calcular_cambio(cambio)
+    print("Resultado:", monedas)
+    return monedas
 def opcion_4():#Samacá
 
 def iniciar_programa():
