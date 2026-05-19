@@ -13,6 +13,13 @@ def opcion_2():#Pinzón
 def opcion_3():#Gadiel
 
 def opcion_4():#Samacá
+    h = int(input("Hora Salida"))
+    m = int(input("Minuto Salida"))
+    s = int(input("Segundo Salida"))
+    dh = int(input("Hora duración"))
+    dm = int(input("Minutos duración"))
+    ds = int(input("Segundos duración"))
+    print("Llegada:"calcular_horario_llegada(h, m, s, dh, dm, ds))
 
 def iniciar_programa():
     while true:
