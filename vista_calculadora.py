@@ -7,7 +7,22 @@ def mostrar_menu():
     return int (input("Seleccione una opción"))
 
 def opcion_1():#Sara
+# Aqui van las funciones
+def area_triangulo(l1, l2, l3):
+    s = (l1 + l2 + l3) / 2
+    area = (s * (s - l1) * (s - l2) * (s - l3)) ** 0.5
+    return area
 
+
+def ejecutar_opcion_1():
+    l1 = float(input("Ingrese Lado 1: ")) 
+    l2 = float(input("Ingrese Lado 2: "))
+    l3 = float(input("Ingrese Lado 3: "))
+
+    print("Resultado:", area_triangulo(l1, l2, l3))
+
+
+ejecutar_opcion_1()
 def opcion_2():#Pinzón
 
 def opcion_3():#Gadiel
